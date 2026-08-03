@@ -35,10 +35,12 @@ const socialLinks = ref([
       </div>
 
       <a 
-        :href="`mailto:${email}`" 
+        :href="`https://mail.google.com/mail/?view=cm&fs=1&to=${email}`" 
+        target="_blank"
+        rel="noopener noreferrer"
         class="px-5 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-xs sm:text-sm transition-colors duration-200"
       >
-        Kirim Email
+        Send Email
       </a>
     </div>
 
